@@ -146,10 +146,10 @@ div.gallery figcaption {
 .mySurvey label {
     margin: .5rem; 
 }
-.mySurvey label, .mySurvey select, .mySurvey [type=text], .mySurvey [type=tel], .mySurvey textarea {
+.mySurvey label, .mySurvey select, .mySurvey [type=text], .mySurvey [type=tel], .mySurvey [type=email], .mySurvey textarea {
     display: block;
 }
-.mySurvey [type=text], .mySurvey [type=tel], .mySurvey select, .mySurvey textarea {
+.mySurvey [type=text], .mySurvey [type=tel], .mySurvey [type=email], .mySurvey select, .mySurvey textarea {
     border: solid 1px #f28749;
     padding: .3rem;
     width: 250px;
