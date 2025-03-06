@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Samantha Sewell">
+    <meta name="description" content="Learn about the history of Disneyland in Anaheim, California">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="disney.css">
+    <link rel="icon" tyep="image/x-icon" href="favicon.ico">
+    <title>Behind the Magic: Home</title>
+</head>
+<body>
+    <!-- start the page head-->
+    <header>
+        <img src="images/disney icon.png" alt="site logo" width="93" height="100">
+        <span>Behind the Magic</span>
+    </header>
+
+    <!--start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="parks.html">Parks</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li class="active"><a href="prize.html">Prize</a></li>
+        </ul>
+    </nav>
+
+    <!-- start the main content-->
+     <main>
+        <h1>Favorites Questionnaire </h1>
+        <p>Fill Out This survey to let us know which rides are your favorite for a cahnce to win tickets to Disneyland</p>
+       
+        <form method="get" class="mySurvey" action="thanks.html">
+<fieldset>
+    <legend>Contact Information</legend>
+    <label>First Name*<input type="text" name="fname" required></label>
+    <label>Last Name*<input type="text" name="lname" required></label>
+    <label>Cell Number*<input type="tel" name="phone" required placeholder="1234567890"></label>
+    <label>Email*<input type="email" name="email" required placeholder="mickeymouse@disney.com"></label>
+
+    <label>Preferred contact Time
+        <select name="time">
+        <option value="none">Please Selcet</option>
+        <option value="morning"> Between 7:00am and 11:00am</option>
+        <option value="noon">Between 11:00am and 2:00pm</option>
+        <option value="afternoon">Between 2:00pm and 5:00pm</option>
+        <option value="evening">Between 5:00pm and 8:00pm</option>
+        </select>
+        </label>
+</fieldset>
+
+<fieldset>
+    <legend>Select Which Park You Like More</legend>
+    <label><input type="radio" name="park" value="disneyland"> Disneyland</label>
+    <label><input type="radio" name="park" value="dca"> Disney  California Adventure</label>
+</fieldset>
+
+<fieldset>
+    <legend>Pick Your Top 3 Favorite Lands in Disneyland</legend>
+    <label><input type="checkbox" name="Fantasyland" value="chosen"> Fantasyland</label>
+    <label><input type="checkbox" name="Mainst" value="chosen"> Main Street U.S.A</label>
+    <label><input type="checkbox" name="Adventureland" value="chosen"> Adventureland</label>
+    <label><input type="checkbox" name="Tomorrowland" value="chosen"> Tomorrowland</label>
+    <label><input type="checkbox" name="Frontierland" value="chosen"> Frontierland</label>
+    <label><input type="checkbox" name="Crittier Country" value="chosen"> Crittier Country</label>
+    <label><input type="checkbox" name="New Orleans Square" value="chosen"> New Orleans Square</label>
+    <label><input type="checkbox" name="Galaxy Edge" value="chosen"> Galaxy Edge</label>
+</fieldset>
+
+<fieldset>
+    <legend>Of the Following Select the 3 Rides That Are Your Favorite</legend>
+    <label><input type="checkbox" name="Space Mountain" value="chosen"> Space Mountain</label>
+    <label><input type="checkbox" name="matterhorn" value="chosen"> Matterhorn</label>
+    <label><input type="checkbox" name="Big Thunder Mountain" value="chosen"> Big Thunder Mountain</label>
+    <label><input type="checkbox" name="Haunted Mansion" value="chosen"> Haunted Mansion</label>
+    <label><input type="checkbox" name="POTC" value="chosen"> Pirates of the Caribbean</label>
+    <label><input type="checkbox" name="SM" value="chosen"> Splash Mountain</label>
+    <label><input type="checkbox" name="IJ" value="chosen"> Indiana Jones</label>
+    <label><input type="checkbox" name="ROTR" value="chosen"> Rise of the Resistance</label>
+    </fieldset>
+
+<fieldset>
+    <legend>Pick Your Top 3 Favorite Lands in Disney California Adventure </legend>
+    <label><input type="checkbox" name="Buena Vista Street" value="chosen"> Buena Vista Street</label>
+    <label><input type="checkbox" name="Grizzly Peak" value="chosen"> Grizzly Peak</label>
+    <label><input type="checkbox" name="Cars Land" value="chosen"> Cars Land</label>
+    <label><input type="checkbox" name="Pixar Pier" value="chosen"> Pixar Pier</label>
+    <label><input type="checkbox" name="Hollywood Land" value="chosen"> Hollywood Land</label>
+    <label><input type="checkbox" name="Avengers Campus" value="chosen"> Avengers Campus</label>
+</fieldset>
+
+<fieldset>
+    <legend>Pick Your Top 3 Favorite Lands in Disney California Adventure </legend>
+    <label><input type="checkbox" name="grizzly peak rapids" value="chosen"> Grizzly Peak Rapids</label>
+    <label><input type="checkbox" name="Radiator Springs Racers" value="chosen"> Radiator Springs Racers</label>
+    <label><input type="checkbox" name="Incredicoaster" value="chosen"> Incredicoaster</label>
+    <label><input type="checkbox" name="Soarin over the World" value="chosen"> Soarin over the World</label>
+    <label><input type="checkbox" name="Guardians of the Galaxy" value="chosen"> Guardians of the Galaxy</label>
+</fieldset>
+
+<label>What Makes Disneyland Magical for you?
+    <textarea name="question">Type your answer here</textarea>
+</label>
+
+<input type="submit" value="send questionnaire ">
+ </form>
+       </main>
+
+     <!-- start page Footer-->
+      <footer>
+        <p>&copy; 2025 &bull; Samantha Sewell &bull; Web Essentials</p>
+      </footer>
+</body>
+</html>
